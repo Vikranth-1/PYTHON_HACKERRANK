@@ -15,7 +15,6 @@ class OddStream(object):
         to_return = self.current
         self.current += 2
         return to_return
-
 def print_from_stream(n, stream=None):
     if stream is None:
         stream = EvenStream()
